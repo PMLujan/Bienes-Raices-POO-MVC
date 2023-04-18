@@ -1,0 +1,21 @@
+{
+    "name": "pc/bienesraices",
+    "description": "Proyecto con POO",
+    "authors": [
+        {
+            "name": "PMLujan",
+            "email": "lujan_paredes@hotmail.com.ar"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}
